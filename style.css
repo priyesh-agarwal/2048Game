@@ -1,0 +1,88 @@
+body {
+    background-color: rgba(230, 198, 198, 0.819);
+    margin: 0; /* Remove default body margin */
+    height: 100vh; /* Set body height to fill the viewport */
+}
+
+.game-heading {
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    padding: 50px;
+}
+
+.centered-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Add desired styles for the centered div */
+  }
+
+.gamearea {
+    width: 30%;
+    height: 50%;
+}
+
+.gameboard {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.cell {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    height: 25%;
+    color: white;
+    background-color: rgb(155, 155, 226);
+    border: 5px solid rgb(72, 72, 72);
+}
+
+.num2 {
+    background-color: rgb(67, 128, 182);
+    color: pink;
+}
+
+.num4 {
+    background-color: rgb(43, 93, 138);
+}
+
+.num8 {
+    background-color: rgb(219, 159, 122);
+}
+
+.num16 {
+    background-color: rgb(206, 82, 33);
+}
+
+.num32 {
+    background-color: rgb(222, 230, 114);
+    color: orange;
+}
+
+.num64 {
+    background-color: rgb(153, 178, 53);
+}
+
+.num128 {
+    background-color: rgb(206, 125, 174);
+}
+
+.num256 {
+    background-color: rgb(233, 39, 227);
+}
+
+.num512 {
+    background-color: rgb(143, 87, 211);
+}
+
+.num1024 {
+    background-color: rgb(130, 24, 162);
+}
+
+.num2048 {
+    background-color: gold;
+}
